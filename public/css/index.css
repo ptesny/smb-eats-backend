@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 42px;
+    color: #DBD5B5;
+}
+
+p {
+    position: relative;
+}
+div {
+    width: 50%;
+    height: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+}
+
+div:hover{
+    cursor:pointer;
+    opacity:85%;
+}
+
+div:active{
+    font-weight: bold;
+}
+
+#customer-div {
+    background: teal;
+}
+
+#agent-div {
+    background: #F8333C;
+}
+
+#kitchen-div {
+    background:#4D5382;
+}
+
+#delivery-div {
+    background: #2B9EB3;
+}
